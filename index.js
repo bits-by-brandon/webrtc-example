@@ -6,8 +6,7 @@ const io = require('socket.io')(http);
 const path = require('path');
 
 app.get('/', function(req, res){
-  // res.sendFile(path.join(__dirname, 'public/index.html'));
-  res.send('<h1>hi</h1>');
+  res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 app.get('/socketiop2p.min.js', function(req, res){
