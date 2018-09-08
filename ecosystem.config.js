@@ -16,7 +16,7 @@ module.exports = {
       host : '192.81.214.130',
       ref  : 'origin/master',
       repo : 'git@github.com:repo.git',
-      path : '~/Apps/webrtc-example',
+      path : '/',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
