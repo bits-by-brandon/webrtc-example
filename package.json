@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "deploy": "pm2 deploy production",
+    "monitor": "ssh -t node@192.81.214.130 'pm2 monit'",
     "start": "node ./index.js"
   },
   "dependencies": {
