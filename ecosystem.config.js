@@ -15,7 +15,7 @@ module.exports = {
       user : 'node',
       host : '192.81.214.130',
       ref  : 'origin/master',
-      repo : 'git@github.com:repo.git',
+      repo : 'git@github.com:brandondc741/webrtc-example.git',
       path : '/var/www/public/webrtc.brandonchang.me',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
